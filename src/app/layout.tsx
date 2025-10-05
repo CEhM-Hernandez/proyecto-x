@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import "@/lib/rabbitmq/rabbitmq"; // Inicializa RabbitMQ automáticamente
 import "./globals.css";
 
 const geistSans = Geist({
