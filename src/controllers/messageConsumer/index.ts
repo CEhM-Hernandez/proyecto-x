@@ -1,0 +1,1 @@
+export { messageConsumer } from './messageConsumer';
